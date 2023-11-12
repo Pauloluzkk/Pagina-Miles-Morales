@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #0f0f16;
+}
+.container{
+        display: flex;
+        border: 7px solid rgba(220, 220, 220, 0.214);
+        border-radius: 20px;
+        width: 1430px;
+        height: 800px;
+        margin: 40px;
+}
+
+.topodireito{
+    display: flex;
+}
+.menu{
+    display: flex;
+    margin-left: 46px;
+    gap: 48px;
+    margin-top: 60px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.menu .yourself {
+    color: #9E191E;
+}
+.logospider{
+    width: 100px;
+    height: 100px;
+    margin-left: 173px;
+    margin-top: 30px;
+}
+
+.miles-picture{
+    display: flex;
+    position: relative;
+    right: 735px;
+    top:80px;
+    height: 600px;
+    
+}
+.textbox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 212px;
+    right: 580px;
+}
+.miles{
+    width: 500px;
+    height: 188px;
+}
+.playstation{
+    position: relative;
+    bottom: 20px;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+    
+}
+.marvel{
+    position: relative;
+    left: 40px;
+    bottom: 78px;
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+}
+.pre-order{
+    width: 238px;
+    height: 45px;
+    margin-top: 42px;
+    background-color: #CC161A;
+    color: #F2F2F2;
+    border-radius: 5px;
+    border: 1px solid #CC161A;
+    font-size: 17px;
+    cursor: pointer;
+}
+.teaser{
+    cursor: av;
+    position: relative;
+    left: 260px;
+    bottom: 45px;
+    width: 238px;
+    height: 45px;
+    background-color: #0f0f16;
+    color: #F2F2F2;
+    border-radius: 5px;
+    border: 1px solid #CC161A;
+    font-size: 17px;
+}
+.text{
+    color: #67696C;
+    margin-top: 23px;
+    font-weight:bold ;
+    width: 509px;
+}
+.topo-esquerdo{
+    position: relative;
+    right: 1000px;
+    display: flex;
+    height: 20px;
+    top: 50px;
+    gap: 20px;
+}
